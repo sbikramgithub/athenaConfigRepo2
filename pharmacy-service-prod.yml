@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql:///athenapharmacydb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+Store:
+  storeNo: 300
+  storeName: medibuddy Pharmacy
+  storeCity: Rourkela
+  storeState: Odisha
+  storePinCode: 769015
