@@ -10,7 +10,7 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
- Store:
+Store:
   storeNo: 500
   storeName: Sahoo Pharmacy
   storeCity: Rourkela
