@@ -10,3 +10,9 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
+ Store:
+  storeNo: 500
+  storeName: Sahoo Pharmacy
+  storeCity: Rourkela
+  storeState: Odisha
+  storePinCode: 769011
