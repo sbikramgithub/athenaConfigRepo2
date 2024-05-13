@@ -10,9 +10,10 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
-Store:
-  storeNo: 500
-  storeName: Sahoo Pharmacy
-  storeCity: Rourkela
-  storeState: Odisha
-  storePinCode: 769011
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://locahost:8083/eureka,http://localhost:8084/eureka
+  
